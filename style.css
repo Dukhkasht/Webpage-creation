@@ -19,7 +19,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #1e2330;
+    background-color: #363f55;
     color: white;
     padding: 1rem;
     display: flex;
@@ -62,14 +62,14 @@ header {
     margin-bottom: 1rem;
 }
 
-.placeholder-image {
-    background-color: #4b5563;
+.hero-image {
     width: 40%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #a0a0a0;
+}
+
+.hero-image img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
 }
 
 /* Info Section Styles */
@@ -83,6 +83,7 @@ header {
     justify-content: space-around;
     margin-top: 2rem;
     flex-wrap: wrap;
+    font-weight: 400;
 }
 
 .info-item {
@@ -90,11 +91,11 @@ header {
     margin-bottom: 1rem;
 }
 
-.info-image {
+.info-item img {
+    width: 200px;
+    height: 200px;
     border: 2px solid #3b82f6;
     border-radius: 4px;
-    width: 100%;
-    height: 100px;
     margin-bottom: 0.5rem;
 }
 
@@ -160,7 +161,7 @@ footer {
         margin-bottom: 1rem;
     }
 
-    .placeholder-image {
+    .hero-image {
         width: 100%;
         margin-top: 1rem;
     }
